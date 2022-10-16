@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ScurryComponentComponent } from './scurry-component/scurry-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ScurryComponentComponent
   ],
   imports: [
     BrowserModule,

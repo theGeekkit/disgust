@@ -1,0 +1,21 @@
+button {
+  background: none;
+  size: 60px;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+img {
+  size: 50%;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+button.roach1 {
+  background: none;
+
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+
+}
