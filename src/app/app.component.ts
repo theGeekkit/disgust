@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'disgust';
 }
 
-
+const button = document.querySelectorAll('button');
 
 function scurry() {
 
@@ -21,5 +21,5 @@ function scurry() {
   this.style.top = offsetTop + 'px';
   this.style.left = offsetLeft + 'px';
 }
-scurry.foreach(button =>)
-button.addEventListener('mouseenter', scurry);
+scurry.forEach(button =>
+button.addEventListener('mouseenter', scurry));
