@@ -21,5 +21,6 @@ function scurry() {
   this.style.top = offsetTop + 'px';
   this.style.left = offsetLeft + 'px';
 }
-scurry.forEach(button =>
+
+button.forEach(button =>
 button.addEventListener('mouseenter', scurry));
